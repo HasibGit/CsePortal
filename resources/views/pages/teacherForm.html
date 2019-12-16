@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+
+    <title>SignUp</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-3">
+        <u>
+          Teacher's SignUp Form
+        </u>
+      </h1>
+      <form action="">
+        <div class="teacher box">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              class="form-control"
+              type="text"
+              id="name"
+              placeholder="Enter name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input
+              class="form-control form-control"
+              type="email"
+              id="email"
+              placeholder="Enter email"
+            />
+            <small class="form-text text-muted"
+              >Your email will not ever be shared</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="mobileNo">Mobile No.</label>
+
+            <input type="tel" name="phone" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input class="form-control is-invalid" type="text" id="password" />
+            <div class="invalid-feedback">
+              Password not strong enough
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input class="form-control is-invalid" type="text" id="password2" />
+            <div class="invalid-feedback">
+              Password does not match
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
